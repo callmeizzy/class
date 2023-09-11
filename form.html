@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form 연습</title>
+</head>
+<body>
+  <h1> Form Tag</h1>
+  <form action="url" method="post|get">
+    <fieldset>
+      <legend>회원가입기본</legend>
+      <!-- 그룹명을 설명해주는 자식태그 -->
+      <ul>
+        <li><input type="text"> <input type="text"></li>
+        <li><label>아이디: <input type="text"></label></li>
+        <li><label for="#pid">아이디 <input type="text" id="pid"></li>
+        <li><label for="#pwd">비밀번호 <input type="password" id="pwd"></li>
+        <li><label for="#ptel">연락처 <input type="number" id="ptel"></li>
+        <li><label for="#month">월 <input type="month" id="month"></li>
+        <li><label for="#date">날짜 <input type="date" id="date"></li>
+        <li><label for="#email">이메일 <input type="email" id="email"></li>
+        <li><label for="#range">범위 <input type="range" id="range"></li>
+        <li><label for="#checkbox">체크 <input type="checkbox" id="checkbox"></li>
+      </ul>
+    </fieldset>
+  </form>
+</body>
+</html>
